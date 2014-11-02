@@ -1,7 +1,7 @@
 flickr-tool
 ===========
 
-A tiny utility tool to manipulate flickr in Scala.
+A utility to manipulate Flickr in Scala.
 
 Basically a thin Scala wrapper of [flickr4java](https://github.com/callmeal/Flickr4Java) and a CLI interface.
 
@@ -25,12 +25,12 @@ There are next actions available.
 
 * ``photoSets``
 
-    Dump id, title and ids of photos for the all photo sets.
+    Dump id, title and ids of photos for the all photo sets in JSON format.
 
 * ``deleteAllPhotos``
 
-    Delete all photos. __THIS ACTION ACTUALLY DELETE EVERYTHING__.
+    Delete all photos. __THIS ACTION ACTUALLY DELETES EVERYTHING__.
 
 * ``deleteAllPhotoSets``
 
-    Delete all photo sets. __THIS ACTION ACTUALLY DELETE EVERYTHING__.
+    Delete all photo sets. __THIS ACTION ACTUALLY DELETES EVERYTHING__.
