@@ -48,7 +48,7 @@ class FlickrClient(consumerKey: ConsumerKey, accessToken: Option[AccessToken]) {
     val verification = StdIn.readLine("Type code:")
     val accessToken = authInterface.getAccessToken(requestToken, new Verifier(verification))
 
-    println("Use next options nexime")
+    println("Use these options next time:")
     println(s"-token ${accessToken.getToken} -secret ${accessToken.getSecret}")
 
     accessToken
