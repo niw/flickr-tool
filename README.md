@@ -11,7 +11,7 @@ Usage
 Use [sbt](http://www.scala-sbt.org) to build and run.
 
     $ brew install sbt
-    $ set "run -action ACTION -apiKey YOUR_FLICKR_API_KEY -apiSecret YOUR_FLICKR_API_SECRET"
+    $ sbt "run -action ACTION -apiKey YOUR_FLICKR_API_KEY -apiSecret YOUR_FLICKR_API_SECRET"
 
 You may be prompted to authorize access to your account.
 Open displayed URL and accept it on the browser then copy and paste displayed code to complete authorization.
